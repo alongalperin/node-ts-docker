@@ -1,6 +1,6 @@
 build:
   docker:
+    dockerfile: Dockerfile
     target: production
-    web: Dockerfile
 run:
   web: make up-prod
