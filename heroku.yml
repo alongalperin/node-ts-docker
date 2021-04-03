@@ -1,7 +1,8 @@
 build:
   docker:
-    dockerfile: Dockerfile
-    target: production/Dockerfile
+    release:
+      dockerfile: Dockerfile
+      target: production
 run:
   web:
     command:
