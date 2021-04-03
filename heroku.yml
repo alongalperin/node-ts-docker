@@ -1,10 +1,7 @@
 build:
   docker:
-    release:
+    web:
       dockerfile: Dockerfile
       target: production
 run:
-  web:
-    command:
-      - make up-prod
-    image: release
+  web: make up-prod
