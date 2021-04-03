@@ -4,4 +4,4 @@ build:
       dockerfile: Dockerfile
       target: production
 run:
-  web: RUN npm start
+  web: npm start
