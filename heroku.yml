@@ -7,3 +7,4 @@ run:
   web:
     command:
       - make up-prod
+    image: ts-node-docker
