@@ -8,8 +8,6 @@ RUN npm i
 
 COPY . .
 
-RUN npm run build
-
 FROM base AS development
 
 CMD ["npm", "run", "dev"]
